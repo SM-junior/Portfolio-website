@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Open+Sans:ital,wght@0,700;1,400&family=Oswald:wght@700&family=PT+Sans&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    list-style: none;
+}
+.header{
+    background-color:  #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 200px 20px 200px;
+}
+.logo{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+}
+.logo span{
+    color: #FD6E0A;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    margin-right: 50px;
+    list-style: none;
+}
+.navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+.btn-primary{
+    padding: 18px 35px;
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.text-area>h5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+}
+.text-area>h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 116px;
+}
+.text-area p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.btn-1{
+    background-color: #FD6E0A;
+    padding: 18px 17px;
+    border: 0;
+    border-radius: 2px;
+    margin-right: 30px;
+}
+.btn-2{
+    padding: 18px 24px;
+    border: 1px solid #FD6E0A;
+    border-radius: 2px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 50px 0 200px;
+}
+/* body */
+
+.about{
+    margin: 130px 230px;
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.about-me{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    line-height: 48px;
+}
+.about-text{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color:  #757575;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.info span{
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+}
+.info strong{
+    font-size: 18px;
+}
+
+/* footer */
+.footer{
+    background-color: #FFF8F3;
+}
+.footer-section{
+    padding: 130px 230px;
+    display: flex;
+}
+.icon ul{
+    display: flex;
+}
+.social-icon h3{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.social-icon p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.icon ul li{
+    margin-right: 24px;
+}
+.icon ul li a{
+    width: 24px;
+    height: 24px;
+    color: #FD6E0A;
+}
+.message-form{
+    margin-left: 117px;
+}
+.message-form h3{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+.message-form input{
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 24px;
+    padding-left: 30px;
+   
+}
+#message{
+    width: 461px;
+    height: 180px;
+    padding: 30px 0 0 30px;
+    border: 0;
+    margin-bottom: 24px;
+}
