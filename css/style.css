@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Open+Sans:ital,wght@0,700;1,400&family=Oswald:wght@700&family=PT+Sans&family=Poppins:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Open+Sans:ital,wght@0,700;1,400&family=Oswald:wght@700&family=PT+Sans&family=Poppins:wght@500&display=swap'); */
 
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
     
 }
 li{
@@ -10,9 +11,20 @@ li{
 }
 .header{
     background-color:  #FFF8F3;
-    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right, left;
+    background-position: bottom right;
+    position: relative;
+}
+.side-image{
+    position: absolute;
+    height: 90%;
+    width: 90px;
+    top: 38px;
+    left: 23px;
+}
+.side-image img{
+width: 100%;
 }
 .nav{
     display: flex;
@@ -37,37 +49,42 @@ li{
     list-style: none;
 }
 .navbar ul li a{
-    font-size: 20px;
     text-decoration: none;
-    font-family: 'Open Sans';
     font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color:  #474747;
 }
 .btn-primary{
     padding: 18px 35px;
     background: #FD6E0A;
+    color: #fff;
     border: 0;
-    border-radius: 2px;
     font-weight: 700;
     font-size: 20px;
+    line-height: 27px;
 }
 
-.text-area>h5{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
+.text-area h3{
+    color: #474747;
+    font-weight: 600;
     font-size: 45px;
     line-height: 61px;
 }
-.text-area>h4{
-    font-family: 'Open Sans';
+.text-area h4{
     font-style: normal;
     font-weight: 600;
     font-size: 80px;
     line-height: 116px;
 }
 .text-area p{
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
+    line-height: 30px;
     margin: 20px 0;
+    color:  #757575;
 }
 .btn-1{
     background-color: #FD6E0A;
@@ -75,11 +92,19 @@ li{
     border: 0;
     border-radius: 2px;
     margin-right: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
 }
 .btn-2{
     padding: 18px 24px;
     border: 1px solid #FD6E0A;
     border-radius: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FD6E0A;
 }
 .banner{
     display: flex;
@@ -103,7 +128,7 @@ li{
 .about-text{
     text-align: center;
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 30px;
     color:  #757575;
 }
@@ -114,11 +139,13 @@ li{
 }
 .info span{
     color: #757575;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
 }
 .info strong{
     font-size: 18px;
+    line-height: 30px;
+    color: #757575;
 }
 
 /* footer */
